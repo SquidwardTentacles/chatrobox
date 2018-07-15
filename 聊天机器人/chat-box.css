@@ -1,0 +1,94 @@
+.box-input {
+  width: 450px;
+  position: fixed;
+  top: 105px;
+  left: 50%;
+  margin-left: -225px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.headertop span input {
+  margin-top: 20px;
+  text-align: center;
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  margin: 0 auto;
+  margin-left: 10px;
+}
+
+.headertop span {
+  width: 200px;
+  padding-right: 10px;
+  width: 150px;
+}
+
+.headertop span input,button {
+  border: 1px solid orange;
+  border-radius: 10px;
+  outline:none ;
+  background:none ;
+  height:20px ;
+}
+#btnk {
+  margin-left:77px ;
+  margin-top:10px ;
+}
+/* #btnk:hover{
+  background-color: orange;
+} */
+
+.header {
+  width: 500px;
+  padding: 50px;
+  background-color: #fff;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+.selfp {
+  text-align: right;
+  color: skyblue;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 0 10px 0 10px;
+  float: right;
+}
+
+.rebot {
+  text-align: left;
+  color: hotpink;
+  border: 1px solid hotpink;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 0 10px 0 10px;
+}
+
+.content {
+  height: 400px;
+  width: 600px;
+  overflow: auto;
+  /* 内容超出后出现滚动条 */
+  margin: 50px auto;
+  border: 1px solid orange;
+  border-radius: 10px;
+}
+
+.headertop {
+  width: 200px;
+  height: 75px;
+  margin: 0 auto;
+}
+
+
+/* 提交按钮 */
+
+.btn {
+  width:30px ;
+  height:20px ;
+}
