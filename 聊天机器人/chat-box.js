@@ -30,6 +30,7 @@
           // //清空input输入框
           var inputsea = document.getElementsByTagName('input')[0];
           // console.log(inputsea);
+          // 键盘弹起事件
           window.onkeyup = function (e) {
             e = e || window.event;
             if (e.keyCode == 13) {
@@ -58,7 +59,7 @@
       }
       // 把聊天内容封装成一个函数 
       function check() {
-        if (i = i) {
+        if (i) {
           var box = document.createElement('div');
           box.setAttribute('class', "header");
           document.body.appendChild(box);
